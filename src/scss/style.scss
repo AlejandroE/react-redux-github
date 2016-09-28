@@ -1,0 +1,44 @@
+body {
+  background-color: #F7F7F7;
+  color: #101010;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.layout {
+  margin: 3rem;
+}
+
+.search {
+  &__input {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    &:focus { outline: none; }
+  }
+  &__button {
+    font-size: 1.52rem
+  }
+}
+
+.results {
+  &__list {
+    list-style: none;
+    padding-left: 0;
+  }
+  &__item {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+}
+
+.error {
+  color: tomato;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
